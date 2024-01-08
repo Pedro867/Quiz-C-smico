@@ -101,6 +101,10 @@ button{
 
 @media (max-width: 760px) {
 
+    body {
+        background-size: cover;
+    }
+
     #Title {
         margin-top: 23vw;
         font-size: 7vw;
