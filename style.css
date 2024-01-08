@@ -5,7 +5,6 @@ body {
     background-image: url(plano-fundo.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
