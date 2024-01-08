@@ -98,3 +98,46 @@ button{
     gap: 5px;
     background-color: rgb(230, 230, 230);
 }
+
+@media (max-width: 760px) {
+
+    #Title {
+        margin-top: 20vw;
+        font-size: 7vw;
+    }
+
+    main {
+        margin-top: 13vw;
+        padding-bottom: 5vw;
+        padding-top: 3vw;
+    }
+
+    .question {
+        font-size: 4vw;
+        padding-bottom: 2vw;
+    }
+
+    .spnQtd {
+        font-size: 3vw;
+    }
+
+    .finish {
+        font-size: 4vw;
+    }
+
+    .start button {
+        font-size: 3.25vw;
+        width: 33vw;
+        height: 6vw;
+        margin-bottom: 6vw;
+        margin-top: 3vw;
+    }
+    button {
+        font-size: 3vw;
+        height: 6vw;
+        margin-bottom: 5vw;
+    }
+    button:hover { /*Para não dar efeito no celular (não me agrada)*/
+        background-color: rgb(230, 230, 230);
+    }
+}
