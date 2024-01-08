@@ -102,12 +102,13 @@ button{
 @media (max-width: 760px) {
 
     #Title {
-        margin-top: 15vw;
+        margin-top: 5vw;
         font-size: 7vw;
     }
 
     main {
         margin-top: 13vw;
+        margin-bottom: 15vw;
         padding-bottom: 5vw;
         padding-top: 3vw;
     }
