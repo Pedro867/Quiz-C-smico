@@ -3,7 +3,7 @@
 }
 body {
     background-image: url(fundo.jpg);
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
