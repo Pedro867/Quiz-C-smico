@@ -3,7 +3,8 @@
 }
 body {
     background-image: url(plano-fundo.jpg);
-    background-size: cover;
+    background-size: 100vh;
+    background-size: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
