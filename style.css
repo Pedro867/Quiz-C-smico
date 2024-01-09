@@ -1,6 +1,7 @@
 *{
     font-family: "Montserrat", sans-serif;
 }
+
 body {
     background-image: url(plano-fundo.jpg);
     background-size: cover;
@@ -12,12 +13,14 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
 #Title{
     margin-top: 3.5vw;
     text-align: center;
     font-size: 4vw;
     color: white;
 }
+
 main {
     z-index: 1;
     width: 100%;
@@ -43,6 +46,7 @@ main {
     flex-direction: column;
     width: 70%;
 }
+
 .spnQtd {
     text-align: center;
     width: 4vw;
@@ -53,35 +57,60 @@ main {
     padding: 1vw;
     background-color: rgb(230, 230, 230);
 }
+
 .answers {
     display: flex;
     flex-direction: column;
 }
+
 .question {
     text-align: center;
     margin-bottom: 3vw;
     margin-top: 1vw;
     font-size: 3vw;
 }
-.finish {
-    margin-top: 2vw;
-    display: none;
-    flex-direction: column;
-}
-.finish button{
-    margin-top: 4vw;
-    text-align: center;
-}
+
 .start {
     margin-top: 3vw;
     flex-direction: column;
 }
+
 .start button {
     font-size: 2.5vw;
     width: 20vw;
     height: 5vw;
     border-radius: 10vw;
 }
+
+.finish {
+    margin-top: 2vw;
+    font-size: 1.75vw;
+    display: none;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.finish button{
+    text-align: center;
+    margin-top: 3vw;
+}
+
+.resposta {
+    display: none;
+    text-align: justify;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.respBtn {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
 button:hover {
     background-color: rgba(230, 230, 230, 0.808);
 }
@@ -134,12 +163,15 @@ button{
         margin-bottom: 6vw;
         margin-top: 3vw;
     }
+
     button {
         font-size: 3vw;
         height: 6vw;
         margin-bottom: 5vw;
     }
+
     button:hover { /*Para não dar efeito no celular (não me agrada)*/
         background-color: rgb(230, 230, 230);
     }
+
 }

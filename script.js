@@ -7,6 +7,8 @@ const contentFinish = document.querySelector(".finish");
 const btnRestart = document.querySelector(".finish button");
 const contentStart = document.querySelector(".start");
 const btnStart = document.querySelector(".start button");
+const contentResposta = document.querySelector(".resposta");
+const btnResposta = document.querySelector(".respBtn");
 
 import questions from "./qs.js";
 
@@ -30,9 +32,16 @@ function start (){
     contentStart.style.display = "flex";
 }
 
+btnResposta.onclick = () => {
+    btnResposta.style.display = "none"; 
+    contentResposta.style.display = "flex";
+}
+
 btnRestart.onclick = () => {
     content.style.display = "flex";
     contentFinish.style.display = "none";
+    contentResposta.style.display = "none";
+    btnResposta.style.display = "none";
 
     currentQuestion = 0;
     correctQuestions = 0;
@@ -56,6 +65,7 @@ function finish() {
     textFinish.innerHTML = `Você acertou ${correctQuestions} de ${questions.length}`;
     content.style.display = "none";
     contentFinish.style.display = "flex";
+    btnResposta.style.display = "flex";
 }
 
 function loadQuestion() {

@@ -18,12 +18,21 @@ const questions = [
         ],
     },
     {
-        question: "Qual o Planeta mais distante do Sol?",
+        question: "Qual o Planeta mais Distante do Sol?",
         answers: [
             { option: "Netuno", correct: true},
             { option: "Plutão", correct: false},
             { option: "Urano", correct: false},
             { option: "Saturno", correct: false},
+        ],
+    },
+    {
+        question: "Qual o planeta mais Próximo do Sol?",
+        answers: [
+            { option: "Marte", correct: false},
+            { option: "Mercúrio", correct: true},
+            { option: "Vênus", correct: false},
+            { option: "Terra", correct: false},
         ],
     },
     {
@@ -33,6 +42,24 @@ const questions = [
             { option: "Uma estrela branca", correct: false},
             { option: "Uma estrela colapsada", correct: true},
             { option: "Lenda Urbana", correct: false},
+        ],
+    },
+    {
+        question: "O que é uma Nebulosa?",
+        answers: [
+            { option: "Um grupo de estrelas", correct: false},
+            { option: "Uma nuvem de gás e poeira", correct: true},
+            { option: "Uma estrela em explosão", correct: false},
+            { option: "Um tipo de Planeta", correct: false},
+        ],
+    },
+    {
+        question: "O que é uma estrela cadente?",
+        answers: [
+            { option: "Planetas que se aproximam da Terra", correct: false},
+            { option: "Estrelas que caem do céu", correct: false},
+            { option: "Meteoros que queimam na atmosfera da Terra", correct: true},
+            { option: "Estrelas distantes que morrem", correct: false},
         ],
     },
 ];
